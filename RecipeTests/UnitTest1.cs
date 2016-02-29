@@ -102,7 +102,7 @@ namespace RecipeTests
             //navigate to recipe page
             driverFF.FindElement(By.CssSelector(".recipe-link[type='submit']")).Click();
             //check that the method is displayed
-            Assert.IsNotNull(driverFF.FindElement(By.Id("method")));
+            Assert.IsNotNull(driverFF.FindElement(By.Id("method-heading")));
         }
 
         //RECIPE COLLECTIONS
